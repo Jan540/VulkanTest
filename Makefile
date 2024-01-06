@@ -10,4 +10,5 @@ run: VulkanTest
 	./VulkanTest
 
 clean:
+	rm -rf shaders/*.spv
 	rm -f VulkanTest
